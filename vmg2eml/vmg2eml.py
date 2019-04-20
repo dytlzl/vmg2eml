@@ -9,7 +9,7 @@ class Convert:
         try:
             self.in_filename = sys.argv[1]
         except IndexError:
-            print('A command-line argument(path to VMG file) required.')
+            print('A command-line argument(path to VMG file) is required.')
             sys.exit()
         self.count = 0
         self.out_data = ''
